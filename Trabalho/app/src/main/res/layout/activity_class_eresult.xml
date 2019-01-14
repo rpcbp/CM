@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassEResult">
+
+    <TextView
+        android:id="@+id/Jogo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogo 1"/>
+
+    <TextView
+        android:id="@+id/editNome1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo1"></TextView>
+
+
+    <TextView
+        android:id="@+id/editNome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo1"></TextView>
+
+    <EditText
+        android:id="@+id/equipa1golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome1"></EditText>
+
+    <EditText
+        android:id="@+id/equipa2golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome2"></EditText>
+
+    <TextView
+        android:id="@+id/Jogo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jogo 2"
+        app:layout_constraintTop_toBottomOf="@+id/equipa1golos"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/editNome11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo2"></TextView>
+
+
+    <TextView
+        android:id="@+id/editNome3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo2"></TextView>
+
+    <EditText
+        android:id="@+id/equipa11golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome11"></EditText>
+
+    <EditText
+        android:id="@+id/equipa3golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome3"></EditText>
+
+    <TextView
+        android:id="@+id/Jogo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jogo 3"
+        app:layout_constraintTop_toBottomOf="@+id/equipa3golos"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/editNome111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo3"></TextView>
+
+
+    <TextView
+        android:id="@+id/editNome4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo3"></TextView>
+
+    <EditText
+        android:id="@+id/equipa111golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome111"></EditText>
+
+    <EditText
+        android:id="@+id/equipa4golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome4"></EditText>
+
+    <TextView
+        android:id="@+id/Jogo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jogo 4"
+        app:layout_constraintTop_toBottomOf="@+id/equipa4golos"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/editNome22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo4"></TextView>
+
+
+    <TextView
+        android:id="@+id/editNome33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo4"></TextView>
+
+    <EditText
+        android:id="@+id/equipa22golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome22"></EditText>
+
+    <EditText
+        android:id="@+id/equipa33golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome33"></EditText>
+
+    <TextView
+        android:id="@+id/Jogo5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jogo 5"
+        app:layout_constraintTop_toBottomOf="@+id/equipa33golos"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/editNome222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo5"></TextView>
+
+
+    <TextView
+        android:id="@+id/editNome44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo5"></TextView>
+
+    <EditText
+        android:id="@+id/equipa222golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome222"></EditText>
+
+    <EditText
+        android:id="@+id/equipa44golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome44"></EditText>
+
+    <TextView
+        android:id="@+id/Jogo6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jogo 6"
+        app:layout_constraintTop_toBottomOf="@+id/equipa44golos"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/editNome333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo6"></TextView>
+
+
+    <TextView
+        android:id="@+id/editNome444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Jogo6"></TextView>
+
+    <EditText
+        android:id="@+id/equipa333golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome333"></EditText>
+
+    <EditText
+        android:id="@+id/equipa444golos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNome444"></EditText>
+
+
+    <Button
+        android:id="@+id/Resultado"
+        android:layout_width="303dp"
+        android:layout_height="72dp"
+        android:onClick="Resultado"
+        android:orderInCategory="100"
+        android:text="Resultado"
+        app:layout_constraintTop_toBottomOf="@+id/equipa444golos"
+        app:showAsAction="never"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+</android.support.constraint.ConstraintLayout>

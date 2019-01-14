@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarEquipas">
+
+    <TextView
+        android:id="@+id/textViewTitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da equipa 1"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/editNome1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo1"
+        ></EditText>
+    <TextView
+        android:id="@+id/textViewTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da equipa 2"
+        app:layout_constraintTop_toBottomOf="@+id/editNome1"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/editNome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo2"
+        ></EditText>
+    <TextView
+        android:id="@+id/textViewTitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da equipa 3"
+        app:layout_constraintTop_toBottomOf="@+id/editNome2"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/editNome3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo3"
+        ></EditText>
+    <TextView
+        android:id="@+id/textViewTitulo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da equipa 4"
+        app:layout_constraintTop_toBottomOf="@+id/editNome3"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/editNome4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo4"
+        ></EditText>
+
+    <Button
+        android:id="@+id/action_save"
+        android:layout_width="303dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Guarda"
+        android:orderInCategory="100"
+        android:text="SAVE"
+        app:layout_constraintTop_toBottomOf="@+id/editNome4"
+        app:showAsAction="never"
+        tools:layout_editor_absoluteX="41dp" />
+
+</android.support.constraint.ConstraintLayout>
